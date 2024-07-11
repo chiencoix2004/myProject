@@ -10,12 +10,7 @@
 
 <body>
     <h1>Hello Everyone</h1>
-    <?php foreach ($abc as $value):?>
-    <tr>
-        <td>{{$value['id']}}</td>
-        <td>{{$value['name']}}</td>
-    </tr>
-    <?php endforeach; ?>
+    
 </body>
 
 </html>
